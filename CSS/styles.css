@@ -29,10 +29,8 @@
     height: 60px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: transparent;
     font-size: 20px;
-    color: #fff;
-    cursor: pointer;
+    color: darkblue;
     margin: 10px;
 }
 
@@ -49,5 +47,13 @@ form .display input{
     box-shadow: none;
     border: black 2px solid;
     border-color: black;
+
+}
+
+.buttons:hover{
+    background-color: aqua;
+    color: navy;
+    font-weight: bold;
+    cursor: pointer;
 
 }
